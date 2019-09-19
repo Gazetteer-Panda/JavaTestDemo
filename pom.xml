@@ -5,6 +5,7 @@
   <version>1.0-SNAPSHOT</version>
   <name>JavaTestDemo</name>
   <description>This is Java Testing Demo</description>
+  <url>http://maven.pkg.github.com/PramodhKumarM</url>
   
     <dependencies>
     <dependency>

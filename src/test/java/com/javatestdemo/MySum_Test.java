@@ -25,7 +25,7 @@ public class MySum_Test {
 		assertEquals(Obj1.sumofnumbers(10), 55);
 	}
 	@Test	//Test 3
-	public void mySimpleTest_2() {
+	public void mySimpleTest_3() {
 		assertEquals(Obj1.sumofnumbers(11), 66);
 		assertEquals(Obj1.sumofnumbers(12), 78);
 		assertEquals(Obj1.sumofnumbers(13), 91);

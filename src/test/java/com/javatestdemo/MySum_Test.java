@@ -29,7 +29,5 @@ public class MySum_Test {
 		assertEquals(Obj1.sumofnumbers(11), 66);
 		assertEquals(Obj1.sumofnumbers(12), 78);
 		assertEquals(Obj1.sumofnumbers(13), 91);
-		assertEquals(Obj1.sumofnumbers(14), 105);
-		assertEquals(Obj1.sumofnumbers(15), 120);
 	}	
 }

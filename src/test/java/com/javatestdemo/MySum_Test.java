@@ -7,7 +7,7 @@ public class MySum_Test {
 	
 	MySum Obj1 = new MySum();
 	
-	@Test
+	@Test	//Test 1
 	public void mySimpleTest_1() {
 		assertEquals(Obj1.sumofnumbers(1), 1);
 		assertEquals(Obj1.sumofnumbers(2), 3);
@@ -16,7 +16,7 @@ public class MySum_Test {
 		assertEquals(Obj1.sumofnumbers(5), 15);
 	}
 	
-	@Test
+	@Test	//Test 2
 	public void mySimpleTest_2() {
 		assertEquals(Obj1.sumofnumbers(6), 21);
 		assertEquals(Obj1.sumofnumbers(7), 28);
@@ -24,4 +24,12 @@ public class MySum_Test {
 		assertEquals(Obj1.sumofnumbers(9), 45);
 		assertEquals(Obj1.sumofnumbers(10), 55);
 	}
+	@Test	//Test 3
+	public void mySimpleTest_2() {
+		assertEquals(Obj1.sumofnumbers(11), 66);
+		assertEquals(Obj1.sumofnumbers(12), 78);
+		assertEquals(Obj1.sumofnumbers(13), 91);
+		assertEquals(Obj1.sumofnumbers(14), 105);
+		assertEquals(Obj1.sumofnumbers(15), 120);
+	}	
 }

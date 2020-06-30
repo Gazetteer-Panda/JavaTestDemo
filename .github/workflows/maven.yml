@@ -18,11 +18,11 @@ jobs:
           sed -i -e 's/TOKEN/'$GITHUB_TOKEN'/g' .m2/settings.xml
           cat .m2/settings.xml
       env:
-          GITHUB_TOKEN: ${{secrets.add_git}}
+          GITHUB_TOKEN: ${{secrets.ADD_GIT}}
           
     - name: Build with Maven
       run: mvn -B -DskipTests clean package
     - name: Run Maven Tests
       run: mvn test
-#    - name: Publish Maven Artifacts
-#      run: mvn deploy --settings .m2/settings.xml
+    - name: Publish Maven Artifacts
+      run: mvn deploy --settings .m2/settings.xml

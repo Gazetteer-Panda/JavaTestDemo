@@ -24,5 +24,5 @@ jobs:
       run: mvn -B -DskipTests clean package
     - name: Run Maven Tests
       run: mvn test
-    - name: Publish Maven Artifacts
-      run: mvn deploy --settings .m2/settings.xml
+#    - name: Publish Maven Artifacts
+#      run: mvn deploy --settings .m2/settings.xml

@@ -6,6 +6,10 @@
 trigger:
 - master
 
+variables:
+- name: one
+  value: "\c\Users\Pramodh\Desktop\Azure_Demo\agent\_work\1\s\target"
+
 pool: Default
 
 steps:
@@ -22,7 +26,7 @@ steps:
 
 - task: CopyFiles@2
   inputs:
-    SourceFolder: $(Build.SourcesDirectory)
+    SourceFolder: ${{ variables.one }}
     contents: '_buildOutput/**'
     targetFolder: $(Build.ArtifactStagingDirectory)
 - task: PublishBuildArtifacts@1

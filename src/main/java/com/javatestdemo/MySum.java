@@ -13,9 +13,5 @@ public class MySum {
 	public static void main(String[] args) {
 		int numbers = Integer.parseInt(args[0]);
 		System.out.println(sumofnumbers(numbers));
-		
-		String s = "Pramodh";
-		int name = Integer.parseInt(s);
-		System.out.println(name);
 	}
 }

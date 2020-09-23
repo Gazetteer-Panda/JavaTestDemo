@@ -36,11 +36,6 @@
   </repositories>
   
     <dependencies>
-	    <dependency>
-    <groupId>github.tobsef</groupId>
-    <artifactId>hello-maven</artifactId>
-    <version>1.2.1</version>
-</dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>

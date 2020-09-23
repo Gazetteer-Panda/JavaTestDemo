@@ -16,6 +16,16 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
+	
+  <repositories>
+    <repository>
+        <id>github</id>
+        <name>GitHub PramodhMDT Apache Maven Packages</name>
+        <url>https://maven.pkg.github.com/pramodhmdt/sunshine-action</url>
+        <releases><enabled>true</enabled></releases>
+        <snapshots><enabled>true</enabled></snapshots>
+    </repository>
+  </repositories>
   
     <dependencies>
         <dependency>

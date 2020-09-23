@@ -31,5 +31,13 @@ public class MySum_Test {
 		assertEquals(Obj1.sumofnumbers(13), 91);
 		assertEquals(Obj1.sumofnumbers(14), 105);	
 		assertEquals(Obj1.sumofnumbers(15), 120);
-	}	
+	}
+	@Test	//Test 4
+	public void mySimpleTest_4() {
+		assertEquals(Obj1.sumofnumbers(16), 136);
+		assertEquals(Obj1.sumofnumbers(17), 153);
+		assertEquals(Obj1.sumofnumbers(18), 171);
+		assertEquals(Obj1.sumofnumbers(19), 190);	
+		assertEquals(Obj1.sumofnumbers(20), 210);
+	}
 }

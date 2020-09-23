@@ -1,5 +1,5 @@
 package com.javatestdemo;
-
+//Main Class
 public class MySum {
 	
 	static int sumofnumbers (int numbers) {
@@ -12,6 +12,6 @@ public class MySum {
 
 	public static void main(String[] args) {
 		int numbers = Integer.parseInt(args[0]);
-		System.out.println(sumofnumbers(numbers));	
+		System.out.println(sumofnumbers(numbers));
 	}
 }
